@@ -1,0 +1,18 @@
+site_name: Logging vs Monitoring vs Observability
+nav:
+  - Intro: intro.md
+  - The Problem: problem.md
+  - The Missing Piece: missing_piece.md
+  - Logging - "What happened?": logging.md
+  - Monitoring - "Is the system healthy?": monitoring.md
+  - Obvervability - "Why did it happen?": observability.md
+  - A Practival Observability Stack (.NET): practical.md
+  - From Zero to Observability (Step-by-Step): from_zero.md
+  - Real-World Example: real.md
+  - Common Mistakes: mistakes.md
+  - What Good Looks Like: good.md
+  - Final Thoughts: final.md 
+  - Demo: demo.md 
+  - Quiz: quiz.md
+  - Survey: survey.md
+theme: readthedocs
