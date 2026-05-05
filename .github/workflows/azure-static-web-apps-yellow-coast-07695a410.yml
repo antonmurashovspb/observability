@@ -36,6 +36,12 @@ jobs:
       - name: Build site
         run: mkdocs build
 
+      - name: Debug - show current directory
+        run: pwd
+
+      - name: Debug - list all files
+        run: ls -R
+
       # 🚀 Deploy to Azure
       - name: Build And Deploy
         uses: Azure/static-web-apps-deploy@v1
