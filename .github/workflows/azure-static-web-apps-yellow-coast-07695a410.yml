@@ -44,9 +44,10 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_YELLOW_COAST_07695A410 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"
+
+          app_location: "site"   # 👈 THIS is the key fix
           api_location: ""
-          output_location: "site"
+          output_location: ""    # 👈 must be empty in this mode
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
